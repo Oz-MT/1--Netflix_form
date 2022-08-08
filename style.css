@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  background-image: url("./img/background_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 95%;
+  /* min-width: 50rem; */
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+}
+
+.medium-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.medium-container .form-container {
+  background-color: rgba(0, 0, 0, 0.9);
+  /* max-width: 50rem; */
+  padding: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 900;
+}
+
+.header h1 span {
+  color: red;
+}
+
+.header p {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form {
+  margin-bottom: 1.5rem;
+}
+
+.input label {
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  padding: 1rem 0.5rem;
+}
+
+.form-container h4 {
+  margin-bottom: 0.5rem;
+}
+
+.input.text {
+  margin-top: 1.5rem;
+}
+
+.input.text textarea {
+  padding: 1rem;
+}
+
+.button {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.button button {
+  background-color: red;
+  padding: 1rem 3rem;
+  color: #fff;
+  border-radius: 10rem;
+  font-size: 1.8rem;
+}
