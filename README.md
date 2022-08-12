@@ -1,30 +1,35 @@
 # Netflix Survey Form
 
-<br>
+## Description
 
-<p>The purpose of this project is improve my HTML/CSS knowledge with using form structures</p>
+<p>Project aims to create survey form within html and css</p>
 
-<br>
-
-<h2>Live Link of the Project</h2>
-
-<br>
+## Live Link of the Project
 
 [Click Me!](https://oz-mt.github.io/netflix_form/)
 
-<br>
-
-<h2>Libraries and Technologies I use</h2>
+## Libraries and Technologies I use
  
  * HTML5
  * CSS3
 
+## How does my project look
 
-<br>
+![netflix survey form](https://github.com/Oz-MT/netflix_form/blob/43d67930b82af0b7f7b3a39dc9e9c7e5381fbedc/final-img/netflix-survey.jpg)
 
+## Objective
 
+<p>Functionally create a Survey Form as in the image above</p>
 
-<h2>How does my project look</h2>
+### At the project, the following topics were covered;
 
+* HTML Forms-Input Types
+* HTML Form Elements
+* CSS Colors-Border Properties
+* CSS Margins-Padding
+* CSS Properties for Texts-Font Families-Links
 
-![netflix survey form](https://github.com/Oz-MT/netflix_form/blob/master/final-img/netflix-survey.jpg)
+### At the end of the project, i have been able to;
+
+* improve coding skills within HTML & CSS
+* use git commands (push, pull, commit, add etc.) and Github as Version Control System
