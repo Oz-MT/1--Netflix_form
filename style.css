@@ -1,3 +1,9 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap");
+
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -11,42 +17,20 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
-}
-
-.container {
   background-image: url("./img/background_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  min-height: 100vh;
   color: #fff;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* height: 100vh; */
 }
 
 .main-container {
   background-color: rgba(0, 0, 0, 0.5);
-  /* width: 80%; */
-  min-width: 37.5rem;
-  margin: 2rem auto;
-  padding: 0 15rem;
-}
-
-.medium-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.medium-container .form-container {
-  background-color: rgba(0, 0, 0, 0.9);
-  /* max-width: 50rem; */
-  padding: 4rem;
-  margin: 2rem 0;
+  max-width: 175rem;
+  margin: 3.5rem auto;
+  padding: 1.5rem;
 }
 
 .header {
@@ -55,8 +39,9 @@ body {
 
 .header h1 {
   text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
   font-size: 6rem;
-  font-weight: 900;
+  letter-spacing: 0.5rem;
 }
 
 .header h1 span {
@@ -64,8 +49,16 @@ body {
 }
 
 .header p {
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.8rem;
+  font-family: "Sorts Mill Goudy", serif;
+  font-style: italic;
+}
+
+.medium-container .form-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  max-width: 45rem;
+  padding: 2rem;
+  margin: 2rem auto 0;
 }
 
 .input {
@@ -95,7 +88,12 @@ body {
 }
 
 .input.text textarea {
-  padding: 1rem;
+  padding: 0.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.input label {
+  font-weight: 800;
 }
 
 .button {
